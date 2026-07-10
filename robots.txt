@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hiroyukideguchi.github.io/sitemap.xml
+Sitemap: https://deguchihiroyuki.github.io/sitemap.xml
