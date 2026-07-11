@@ -41,3 +41,24 @@ perception in the real world with digital human modeling, with a long-term inter
 **June 7, 2024.** One paper accepted to IEEE International Conference on Image Processing.
 
 **Jul 28, 2023.** Received the "Demo Presentation Award" and the "Student Encouragement Award" at MIRU 2023.
+
+## Publications
+
+- **H. Deguchi**, Ryosuke Hori, Kotaro Amaya, Tsubasa Maruyama, Mitsunori Tada, and Hideo Saito,
+  **Map-Mono-Ego: Map-Grounded Global Human Pose Estimation from Monocular Egocentric Video**,
+  In Proceedings of the 2026 IEEE International Conference on Image Processing (ICIP).
+  [Website](https://deguchihiroyuki.github.io/Map-Mono-Ego-Project/)
+
+- R. Hori, **H. Deguchi**, T. Maruyama, M. Tada, and H. Saito,
+  **Gait Inertial Poser (GIP): Gait-Aware Human Motion Capture Using Shoe-Embedded IMUs**,
+  IEEE Access, vol. 13, pp. 183262-183282, 2025.
+  [DOI](https://ieeexplore.ieee.org/document/11214366)
+
+- **H. Deguchi**\*, R. Hori\*, T. Maruyama, M. Tada, and H. Saito,
+  **Realtime Smart Gait Poser for Foot Augmentation**,
+  CHI 2025 Workshop, 2025.
+
+- **H. Deguchi**\*, M. Masuda\*, T. Nakabayashi, and H. Saito,
+  **E2GS: Event Enhanced Gaussian Splatting**,
+  In Proceedings of the 2024 IEEE International Conference on Image Processing (ICIP), pp. 1676-1682, 2024.
+  [DOI](https://ieeexplore.ieee.org/document/10647607)
