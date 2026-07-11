@@ -24,11 +24,50 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+  .publication-list {
+    display: grid;
+    gap: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .publication-item {
+    display: grid;
+    grid-template-columns: minmax(0, 210px) minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .publication-thumb {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--global-divider-color);
+  }
+
+  .publication-title {
+    font-weight: 600;
+  }
+
+  .publication-links {
+    margin-top: 0.35rem;
+  }
+
+  @media (max-width: 640px) {
+    .publication-item {
+      grid-template-columns: 1fr;
+    }
+
+    .publication-thumb {
+      max-width: 320px;
+    }
+  }
+</style>
+
 Hi, I am Hiroyuki Deguchi (出口 裕之).
 
-I am pursuing my first year as a PhD candidate at Keio University under the guidance of Prof. Hideo Saito, and also a research
-assistant at the Digital Human Research Team, part of the Artificial Intelligence Research Center at the National Institute of Advanced
-Industrial Science and Technology (AIST).
+I am pursuing my first year as a PhD candidate at [Keio University](https://www.keio.ac.jp/en/st/) under the guidance of [Prof. Hideo Saito](http://www.hvrl.ics.keio.ac.jp/), and also a research
+assistant at the [Digital Human Research Team](https://dhrt.notion.site/Digital-Human-Research-Team-AIRC-AIST-8d53e3c09734402092effc93f52eee6a), part of the [Artificial Intelligence Research Center](https://www.airc.aist.go.jp/en/) at the [National Institute of Advanced
+Industrial Science and Technology (AIST)](https://www.aist.go.jp/index_en.html).
 
 My research focuses on computer vision, especially egocentric vision, human motion capture, and 3D human reconstruction using multimodal
 sensors. More broadly, I am interested in human-centered visual understanding and in building robust vision systems that connect
@@ -44,21 +83,43 @@ perception in the real world with digital human modeling, with a long-term inter
 
 ## Publications
 
-- **H. Deguchi**, Ryosuke Hori, Kotaro Amaya, Tsubasa Maruyama, Mitsunori Tada, and Hideo Saito,
-  **Map-Mono-Ego: Map-Grounded Global Human Pose Estimation from Monocular Egocentric Video**,
-  In Proceedings of the 2026 IEEE International Conference on Image Processing (ICIP).
-  [Website](https://deguchihiroyuki.github.io/Map-Mono-Ego-Project/)
+<div class="publication-list">
+  <article class="publication-item">
+    <img class="publication-thumb" src="{{ '/assets/img/ICIP2026.png' | relative_url }}" alt="Map-Mono-Ego preview">
+    <div>
+      <div><strong>H. Deguchi</strong>, Ryosuke Hori, Kotaro Amaya, Tsubasa Maruyama, Mitsunori Tada, and Hideo Saito</div>
+      <div class="publication-title">Map-Mono-Ego: Map-Grounded Global Human Pose Estimation from Monocular Egocentric Video</div>
+      <div>In Proceedings of the 2026 IEEE International Conference on Image Processing (ICIP).</div>
+      <div class="publication-links"><a href="https://deguchihiroyuki.github.io/Map-Mono-Ego-Project/">Website</a></div>
+    </div>
+  </article>
 
-- R. Hori, **H. Deguchi**, T. Maruyama, M. Tada, and H. Saito,
-  **Gait Inertial Poser (GIP): Gait-Aware Human Motion Capture Using Shoe-Embedded IMUs**,
-  IEEE Access, vol. 13, pp. 183262-183282, 2025.
-  [DOI](https://ieeexplore.ieee.org/document/11214366)
+  <article class="publication-item">
+    <img class="publication-thumb" src="{{ '/assets/img/ACCESS2025.png' | relative_url }}" alt="Gait Inertial Poser preview">
+    <div>
+      <div>R. Hori, <strong>H. Deguchi</strong>, T. Maruyama, M. Tada, and H. Saito</div>
+      <div class="publication-title">Gait Inertial Poser (GIP): Gait-Aware Human Motion Capture Using Shoe-Embedded IMUs</div>
+      <div>IEEE Access, vol. 13, pp. 183262-183282, 2025.</div>
+      <div class="publication-links"><a href="https://ieeexplore.ieee.org/document/11214366">DOI</a></div>
+    </div>
+  </article>
 
-- **H. Deguchi**\*, R. Hori\*, T. Maruyama, M. Tada, and H. Saito,
-  **Realtime Smart Gait Poser for Foot Augmentation**,
-  CHI 2025 Workshop, 2025.
+  <article class="publication-item">
+    <img class="publication-thumb" src="{{ '/assets/img/CHI2025.png' | relative_url }}" alt="Realtime Smart Gait Poser preview">
+    <div>
+      <div><strong>H. Deguchi</strong>*, R. Hori*, T. Maruyama, M. Tada, and H. Saito</div>
+      <div class="publication-title">Realtime Smart Gait Poser for Foot Augmentation</div>
+      <div>CHI 2025 Workshop, 2025.</div>
+    </div>
+  </article>
 
-- **H. Deguchi**\*, M. Masuda\*, T. Nakabayashi, and H. Saito,
-  **E2GS: Event Enhanced Gaussian Splatting**,
-  In Proceedings of the 2024 IEEE International Conference on Image Processing (ICIP), pp. 1676-1682, 2024.
-  [DOI](https://ieeexplore.ieee.org/document/10647607)
+  <article class="publication-item">
+    <img class="publication-thumb" src="{{ '/assets/img/ICIP2024.png' | relative_url }}" alt="E2GS preview">
+    <div>
+      <div><strong>H. Deguchi</strong>*, M. Masuda*, T. Nakabayashi, and H. Saito</div>
+      <div class="publication-title">E2GS: Event Enhanced Gaussian Splatting</div>
+      <div>In Proceedings of the 2024 IEEE International Conference on Image Processing (ICIP), pp. 1676-1682, 2024.</div>
+      <div class="publication-links"><a href="https://ieeexplore.ieee.org/document/10647607">DOI</a></div>
+    </div>
+  </article>
+</div>
