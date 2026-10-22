@@ -54,8 +54,10 @@ nav_order: 1
     <div>
       <div><strong>H. Deguchi</strong>, Ryosuke Hori, Kotaro Amaya, Tsubasa Maruyama, Mitsunori Tada, and Hideo Saito</div>
       <div class="publication-title">Map-Mono-Ego: Map-Grounded Global Human Pose Estimation from Monocular Egocentric Video</div>
-      <div>In Proceedings of the 2026 IEEE International Conference on Image Processing (ICIP).</div>
-      <div class="publication-links"><a href="https://deguchihiroyuki.github.io/Map-Mono-Ego-Project/">Website</a></div>
+      <div>In Proceedings of the 2026 IEEE International Conference on Image Processing (ICIP), pp. 1-6, 2026.</div>
+      <div>Also submitted to the ECCV 2026 Workshop on Human-Motion World Models (HuMoWM).</div>
+      <div>DOI: 10.1109/ICIP61757.2026.11630274.</div>
+      <div class="publication-links"><a href="https://deguchihiroyuki.github.io/Map-Mono-Ego-Project/">Website</a> · <a href="https://doi.org/10.1109/ICIP61757.2026.11630274">DOI</a></div>
     </div>
   </article>
 
